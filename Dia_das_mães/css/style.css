@@ -1,0 +1,228 @@
+body{
+    font-family: cursive;
+    font-size: 1.5em;
+}
+
+#content{
+    background: #DDA0DD;
+}
+
+#btext{
+    background: #FFF0F5;
+}
+
+#text{
+    text-align: left;
+}
+
+#text p{
+    margin: 30px 0;
+}
+
+#text h1{
+    font-family: cursive;
+    font-size: 2.5em;
+}
+
+#sp, span{
+    display: flex;
+    padding: 0 20px;
+    background: #fff;
+}
+
+#span{
+    background-color: #DDA0DD;
+    border-radius: 2px;
+}
+
+#image{
+    width: 40px;
+}
+
+#col4{
+    margin: auto;
+}
+
+#col4 a{
+    background-color: #800080;
+}
+
+.btn-primary {
+    color: #fff;
+    border-color: #4B0082 !important;
+    text-shadow: #3F3295 -2px 2px 3px;
+    font-family: cursive;
+	font-size: 1.5em;
+	line-height: 1em;
+	font-weight: bold;
+    margin-left: 113px;
+}
+
+.card{
+    background: #FF69B4;
+    border: none;
+}
+
+.btn-primary:hover{
+    color: #fff;
+    background-color: #C65398;
+    border-color: #fff !important;
+    text-shadow: #3F3295 -2px 2px 3px;
+    transition-duration: 500ms;
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.428571429;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+#backg{
+    background-attachment: fixed;
+    background-size: 50px;
+    background: #4B0082;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+#display{
+    width: 50px;
+    height: auto;
+    margin: auto;
+    transform: rotate(.750turn);
+    inline-size: 34.2e;
+    margin-block-start: -215px;
+}
+
+#share{
+    margin: 30px auto 30px;
+    justify-content: center;
+    display: block;
+    padding: 0;
+    justify-content: center;
+}
+
+.social-share-item{
+	-webkit-text-size-adjust: 100%;
+    list-style: none;
+    display: inline-block;
+    margin: auto;
+}
+
+#facebook{
+	-webkit-text-size-adjust: 100%;
+	background-repeat: no-repeat;
+	border: 2px solid #4B0082;
+	background-color: #FF69B4;
+	padding: 5px;
+	border-radius: 100%;
+	font-size: 20px;
+	margin: 5px;
+	width: 39px;
+	height: 39px;
+	display: block;
+	text-align: center;
+    
+}
+
+#twitter{
+	-webkit-text-size-adjust: 100%;
+	background-repeat: no-repeat;
+	border: 2px solid #4B0082;
+	background-color: #FF69B4;
+	padding: 5px;
+	border-radius: 100%;
+	font-size: 20px;
+	margin: 5px;
+	width: 39px;
+	height: 39px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+}
+
+#linkedin{
+	-webkit-text-size-adjust: 100%;
+	background-repeat: no-repeat;
+	border: 2px solid #4B0082;
+	background-color: #FF69B4;
+	padding: 5px;
+	border-radius: 100%;
+	font-size: 20px;
+	margin: 5px;
+	width: 39px;
+	height: 39px;
+	display: block;
+	text-align: center;
+}
+
+#whatsapp{
+	-webkit-text-size-adjust: 100%;
+	background-repeat: no-repeat;
+	border: 2px solid #4B0082;
+	background-color: #FF69B4;
+	padding: 5px;
+	border-radius: 100%;
+	font-size: 20px;
+	margin: 5px;
+	width: 39px;
+	height: 39px;
+	display: block;
+	text-align: center;
+}
+
+#telegram{
+	-webkit-text-size-adjust: 100%;
+	background-repeat: no-repeat;
+	border: 2px solid #4B0082;
+	background-color: #FF69B4;
+	padding: 5px;
+	border-radius: 100%;
+	font-size: 20px;
+	margin: 5px;
+	width: 39px;
+	height: 39px;
+	display: block;
+	text-align: center;
+}
+
+#flipboard{
+	-webkit-text-size-adjust: 100%;
+	background-repeat: no-repeat;
+	border: 2px solid #4B0082;
+	background-color: #FF69B4;
+	padding: 5px;
+	border-radius: 100%;
+	font-size: 20px;
+	margin: 5px;
+	width: 39px;
+	height: 39px;
+	display: block;
+	text-align: center;
+}
+
+#facebook:hover, #twitter:hover, #linkedin:hover, #whatsapp:hover, #telegram:hover, #flipboard:hover{
+	-webkit-text-size-adjust: 100%;
+	border: 2.3px solid #ffffff;
+    box-shadow: #4B0082 0px 0px 10px;
+    transition: all 0.2s ease 0s;
+    transform: rotate(1turn);
+    transition-duration: 500ms;
+}

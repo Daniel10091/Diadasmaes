@@ -1,0 +1,102 @@
+body {
+	background: #D279AF;
+}
+
+#pushobj {
+    margin-left: 40px;
+}
+
+#menu {
+    -ms-opacity: 0.95;
+    opacity: 0.95;
+}
+
+#menu li{
+    font-family: cursive;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+svg{
+    -webkit-text-size-adjust: 100%;
+    font-family: fa5-proxima-nova,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    --HSDSGlobalFontFamily: "Aktiv Grotesk","Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    --HSDSGlobalFontFamilyMono: "SFMono-Regular",Consolas,"Liberation Mono",Menlo,Courier,monospace;
+    --HSDSGlobalFontSize: 13px;
+    color: #fff;
+    text-align: center;
+    box-sizing: inherit;
+    display: inline-block;
+    height: 1em;
+    font-size: 1.3333333333em;
+    line-height: 0.75em;
+    animation: fa-spin 2s infinite linear;
+    vertical-align: -0.125em;
+    width: 0.625em;
+    overflow: visible;
+}
+
+.fac{
+    -webkit-text-size-adjust: 100%;
+    font-family: fa5-proxima-nova,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    --HSDSGlobalFontFamily: "Aktiv Grotesk","Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    --HSDSGlobalFontFamilyMono: "SFMono-Regular",Consolas,"Liberation Mono",Menlo,Courier,monospace;
+    --HSDSGlobalFontSize: 13px;
+    color: #fff;
+    text-align: center;
+    font-size: 1.3333333333em;
+    line-height: 0.75em;
+    fill: currentcolor;
+    d: path("M 279.14 288 l 14.22 -92.66 h -88.91 v -60.13 c 0 -25.35 12.42 -50.06 52.24 -50.06 h 40.42 V 6.26 S 260.43 0 225.36 0 c -73.22 0 -121.08 44.38 -121.08 124.72 v 70.62 H 22.89 V 288 h 81.39 v 224 h 100.17 V 288 Z");
+    box-sizing: inherit;
+}
+
+@keyframes fa-spin{
+0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+}
+
+#ic:hover{
+    -webkit-text-size-adjust: 100%;
+	border: 2.3px solid #ffffff;
+    box-shadow: #4B0082 0px 0px 10px;
+    transition: all 0.2s ease 0s;
+    transform: rotate(1turn);
+}
+
+.logo{
+	padding: 0;
+	margin: 0;
+    background-attachment: fixed;
+    background-size: contain;
+	display: flex;
+}
+
+#logo{
+	display: flex;
+	padding: 0;
+	background-attachment: fixed;
+    background-size: contain;
+}
+
+.logo img{
+	background-image: url(../images/1.jpg);
+	width: 100%;
+	height: 150px;
+}
+
+/*
+#backg{
+	background: url(../images/2.jpg);
+	background-repeat: no-repeat;
+	opacity: 100%;
+	display: flex;
+    height: 152px;
+}
+*/
